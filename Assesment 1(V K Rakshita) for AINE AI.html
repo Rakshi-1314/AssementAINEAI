@@ -1,0 +1,138 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Assessment</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="author" content="V K Rakshita">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+             body {
+                margin: 0;
+		        padding: 0;
+		        box-sizing: border-box;
+		        border: none;
+                background-color: rgb(224, 224, 235);
+              }
+            header {
+                background-color: rgb(255, 255, 255);
+                padding: 50px;
+            }/*----------------------------------------------------------------------------Navigation bar-----------------------------------------------*/
+              nav ul {
+                position:absolute;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 10%;
+                background-color: #f1f1f1;
+                position: fixed;
+                height: 100%;
+                overflow: auto;
+                filter: drop-shadow(0px 3px 30px rgba(137, 137, 137, 1));
+                float:left;
+                top:0%;
+              }
+              nav li img{
+                width:80px;
+                height: 50px;
+                margin-left:35px;
+                margin-top:25px;
+              }
+              nav li a {
+                display: block;
+                color: rgb(143, 140, 140);
+                padding: 30px 30px;
+                text-decoration: none;
+                text-align: center;
+                text-decoration: none;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+              }
+              nav li a.active {
+                background-color: #a6aef8;
+                color: rgb(5, 5, 5);
+              }
+              nav li a:hover:not(.active) {
+                background-color:#a6aef8;
+                color: rgb(2, 2, 2);
+              }
+              i{
+                  color:rgb(94, 93, 93);
+              }/*-------------------------------------------------------------Article--------------------------------------------------------------------*/
+              article {
+              margin-left: 10%;
+              padding: 50px;
+              height: 500px;
+              }
+              section::after {
+              content: "";
+              display: table;
+              clear: both;
+              }
+              .Videos{
+                color: rgb(155, 147, 184);  
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                margin-top:0px;
+              }/*---------------------------------------------------------Article (Insert)----------------------------------------------------------------*/
+              .Insert{
+                background-color: rgb(255, 255, 255);
+                padding: 8px;
+                text-align: left;
+                font-size: 15px;
+                color: rgb(82, 81, 81);  
+                border-radius: 8px;
+                width:70%;
+                height:20px;
+                margin-left: 200px;
+                margin-top: 50px;
+              } 
+              .or{
+                font-size: 15px;
+                color: rgb(3, 3, 3);  
+                margin-left: 610px;  
+                margin-top:50px; 
+              }/*----------------------------------------------------------Article (upload box)-------------------------------------------------------------*/
+              .uploadbox{
+                background-color: rgb(255, 255, 255); 
+                width:3cm;
+                height:3cm;
+                margin-left: 200px;
+                margin-top:0px;
+                position:relative; 
+              }
+              .upload{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 15px;
+                color: rgb(0, 0, 0);
+              } 
+        </style>
+    </head>
+           <body>
+              <header></header>
+              <!-----------------------------------------------------------------------Section (Navigation bar)------------------------------------------------------>
+            <section>
+          <nav>
+          <ul>
+            <li><img src="logo13.svg"></li><br>
+            <li><a href="#Students"><i class="fa fa-fw fa-user solid"></i><br>Students</a></li>
+            <li><a class="active" href="#LessonPlans"><i class="fa fa-fw fa-book solid" style="color:black;"></i><br>Lesson plans</a></li>
+            <li><a href="#settings"><i class="fa fa-fw fa-cog solid"></i><br>Settings</a></li>
+          </ul>  
+          </nav> 
+          <!----------------------------------------------------------Section (Article)-------------------------------------------------------------------------------------------->
+        <article>
+            <b><div class="Videos"><i class="fa fa-fw fa-caret-left" style="font-size:20px;color:rgb(153, 147, 179);"></i>Videos</div></b>
+            <b><div class="Insert">Insert URL here</div></b>
+            <b><div class="or">or</div></b>
+            <div class="uploadbox"><b><div class="upload">upload</b></div></div>
+        </article>  
+           </section>
+          </body>
+</html>
+
+
+  
